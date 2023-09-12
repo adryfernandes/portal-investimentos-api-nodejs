@@ -1,9 +1,8 @@
 import { Router } from 'express';
+import credentialsRouter from './credentials.router';
 
 const router = Router();
 
-router.get('/ping', (_, res) => {
-  res.send('pong');
-});
+router.use('/credentials', credentialsRouter);
 
 export default router;
