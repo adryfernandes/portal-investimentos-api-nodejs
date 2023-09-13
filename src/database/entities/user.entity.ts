@@ -25,7 +25,7 @@ export class UserEntity {
   @Column({ length: 10 })
   tellphone: string;
 
-  @Column()
+  @Column({ type: 'enum', enum: UserStatus, default: UserStatus.ACTIVE })
   status: UserStatus;
 
   @Column(() => Timestamp, { prefix: false })
