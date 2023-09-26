@@ -24,10 +24,11 @@ Projeto criado para a utilização e criação de um portal de investimentos, ne
 <br/>
 
 ### Tecnologias 👩‍💻
-- Typescript e express;
+- Typescript, Express e TypeORM;
 - Prettier e ESLint para a organização do código;
 - Tsoa para a criação automática da doc pelo swagger.
 
+  
 <br/>
 
 ### Suporte 🤝
