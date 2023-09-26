@@ -28,7 +28,27 @@ Projeto criado para a utilização e criação de um portal de investimentos, ne
 - Prettier e ESLint para a organização do código;
 - Tsoa para a criação automática da doc pelo swagger.
 
-  
+<br/>
+
+## 🛠 Instalação
+
+```bash
+# Clone esse repositório
+$ git clone <https://github.com/adryfernandes/portal-investimentos-api-nodejs>
+
+# Instale as dependências
+$ npm install
+# or
+$ yarn
+
+# Execute a aplicação em modo desenvolvedor
+$ npm run dev
+# or
+$ yarn dev
+
+# A porta do servidor irá abrir no console: https://localhost:3000
+```
+
 <br/>
 
 ### Suporte 🤝
